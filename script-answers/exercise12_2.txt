@@ -1,30 +1,353 @@
-Script started on 2024-08-30 13:43:24+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
-/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # [6n
-Script done on 2024-08-30 14:21:31+00:00 [COMMAND_EXIT_CODE="0"]
-34m/mnt/c/FrontEnd/web/2024/part12-containers-applications[00m$ docker container run hello-world
-[?2004l
-Hello from Docker!
-This message shows that your installation appears to be working correctly.
+Script started on 2024-08-31 11:20:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # [6ndocker container ls
+sh: docker: not found
+/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # [6n/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # docker container ls[J -a
+sh: docker: not found
+/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # [6ndocker run -it ubuntu bash
+sh: docker: not found
+/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # [6nscript -c "bash" script-answers/exercise12_3.txt
+Script started, output log file is 'script-answers/exercise12_3.txt'.
+sh: bash: not found
+Script done.
+/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # [6nscript -c "bash" script-answers/exercise12_3.txt
+Script started, output log file is 'script-answers/exercise12_3.txt'.
+sh: bash: not found
+Script done.
+/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # [6n         
+2001-03-01 00:00:00 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+2024-08-31 14:36:11 
+2000-01-01 00:00:00 [3 InRelease 4096 B/126 kB 3%]
+                                 
+2000-01-01 00:00:00 [Working]
+            
+2001-04-01 00:00:00 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+2024-08-31 14:36:11 
+2000-01-01 00:00:00 [4 InRelease 8380 B/126 kB 7%]
+2000-01-01 00:00:00 [4 InRelease 52.3 kB/126 kB 41%]
+                                   
+2000-01-01 00:00:00 [Waiting for headers]
+                        
+2001-05-01 00:00:00 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [337 kB]
+2024-08-31 14:36:11 
+2000-01-01 00:00:00 [5 Packages 4171 B/337 kB 1%]
+2000-01-01 00:00:00 [5 Packages 337 kB/337 kB 100%]
+                                  
+2000-01-01 00:00:00 [Working]
+2000-01-01 00:00:00 [5 Packages store 0 B] [Waiting for headers] [Waiting for headers]
+                                                                     
+2001-06-01 00:00:00 http://archive.ubuntu.com/ubuntu noble/restricted amd64 Packages [117 kB]
+2024-08-31 14:36:11 
+2000-01-01 00:00:00 [5 Packages store 0 B] [6 Packages 8521 B/117 kB 7%] [Waiting for headers]
+                                                                             
+2000-01-01 00:00:00 [6 Packages 81.5 kB/117 kB 69%] [Waiting for headers]
+                                                        
+2001-07-01 00:00:00 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [354 kB]
+2024-08-31 14:36:11 
+2000-01-01 00:00:00 [6 Packages 117 kB/117 kB 99%] [7 Packages 8479 B/354 kB 2%]
+                                                               
+2000-01-01 00:00:00 [7 Packages 72.6 kB/354 kB 20%]
+2000-01-01 00:00:00 [6 Packages store 0 B] [7 Packages 75.5 kB/354 kB 21%]
+                                                         
+2000-01-01 00:00:00 [Waiting for headers] [7 Packages 260 kB/354 kB 74%]
+2000-01-01 00:00:00 [Waiting for headers] [7 Packages 341 kB/354 kB 96%]
+                                                       
+2001-08-01 00:00:00 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [331 kB]
+2024-08-31 14:36:11 
+2000-01-01 00:00:00 [8 Packages 14.2 kB/331 kB 4%] [7 Packages 341 kB/354 kB 96%]
+                                                                
+2000-01-01 00:00:00 [8 Packages 53.6 kB/331 kB 16%] [Waiting for headers]
+                                                        
+2001-09-01 00:00:00 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [404 kB]
+2024-08-31 14:36:11 
+2000-01-01 00:00:00 [8 Packages 65.2 kB/331 kB 20%] [9 Packages 3445 B/404 kB 1%]
+2000-01-01 00:00:00 [7 Packages store 0 B] [8 Packages 65.2 kB/331 kB 20%] [9 Packages 3445 B/404 kB 1%]
+                                                                                       
+2000-01-01 00:00:00 [8 Packages 198 kB/331 kB 60%] [9 Packages 380 kB/404 kB 94%]
+                                                                
+2000-01-01 00:00:00 [8 Packages 327 kB/331 kB 99%] [Waiting for headers]
+                                                       
+2001-10-01 00:00:00 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [12.7 kB]
+2024-08-31 14:36:11 
+2000-01-01 00:00:00 [8 Packages 327 kB/331 kB 99%] [10 Packages 8192 B/12.7 kB 64%]
+2000-01-01 00:00:00 [9 Packages store 0 B] [8 Packages 327 kB/331 kB 99%] [10 Packages 8192 B/12.7 kB 64%]
+                                                                                         
+2000-01-01 00:00:00 [9 Packages store 0 B] [8 Packages 327 kB/331 kB 99%]
+                                                        
+2000-01-01 00:00:00 [9 Packages store 0 B] [Waiting for headers]
+                                               
+2001-11-01 00:00:00 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1808 kB]
+2024-08-31 14:36:12 
+2000-01-01 00:00:00 [9 Packages store 0 B] [11 Packages 7168 B/1808 kB 0%]
+22% [9 Packages store 0 B] [11 Packages 50.1 kB/1808 kB 3%]
+                                                           
+23% [11 Packages 250 kB/1808 kB 14%]
+23% [10 Packages store 0 B] [11 Packages 274 kB/1808 kB 15%]
+                                                            
+24% [11 Packages 335 kB/1808 kB 19%]
+24% [8 Packages store 0 B] [11 Packages 340 kB/1808 kB 19%]
+                                                           
+26% [11 Packages 939 kB/1808 kB 52%]
+                                    
+29% [Waiting for headers]
+                         
+2001-12-01 00:00:00 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [19.3 MB]
+2024-08-31 14:36:13 
+29% [12 Packages 32.8 kB/19.3 MB 0%]
+29% [11 Packages store 0 B] [12 Packages 32.8 kB/19.3 MB 0%]
+                                                            
+2037-01-01 00:00:00 [12 Packages 2399 kB/19.3 MB 12%]
+1968-01-01 00:00:00 [12 Packages 11.9 MB/19.3 MB 62%]
+1992-01-01 00:00:00 [12 Packages 19.3 MB/19.3 MB 100%]
+                                      
+1992-01-01 00:00:00 [Waiting for headers]
+                         
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [354 kB]
+2024-08-31 14:36:13 
+1992-01-01 00:00:00 [13 Packages 19.6 kB/354 kB 6%]
+1992-01-01 00:00:00 [12 Packages store 0 B] [13 Packages 20.5 kB/354 kB 6%]
+                                                           
+1993-01-01 00:00:00 [12 Packages store 0 B] [Waiting for headers]
+                                                 
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [449 kB]
+2024-08-31 14:36:13 
+1993-01-01 00:00:00 [12 Packages store 0 B] [14 Packages 8192 B/449 kB 2%]
+                                                          
+1995-01-01 00:00:00 [12 Packages store 0 B] [Waiting for headers]
+                                                 
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [16.9 kB]
+2024-08-31 14:36:13 
+1995-01-01 00:00:00 [12 Packages store 0 B] [15 Packages 8580 B/16.9 kB 51%]
+                                                            
+1995-01-01 00:00:00 [12 Packages store 0 B]
+                           
+Get:16 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [594 kB]
+2024-08-31 14:36:13 
+1995-01-01 00:00:00 [12 Packages store 0 B] [16 Packages 16.4 kB/594 kB 3%]
+                                                           
+1997-01-01 00:00:00 [12 Packages store 0 B] [Waiting for headers]
+                                                 
+Get:17 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [11.5 kB]
+2024-08-31 14:36:14 
+1997-01-01 00:00:00 [12 Packages store 0 B] [17 Packages 11.5 kB/11.5 kB 100%]
+                                                              
+1997-01-01 00:00:00 [12 Packages store 0 B]
+1997-01-01 00:00:00 [12 Packages store 0 B]
+                           
+1997-01-01 00:00:00 [Working]
+1997-01-01 00:00:00 [13 Packages store 0 B]
+                           
+1998-01-01 00:00:00 [Working]
+1998-01-01 00:00:00 [14 Packages store 0 B]
+                           
+1998-01-01 00:00:00 [Working]
+1998-01-01 00:00:00 [15 Packages store 0 B]
+                           
+1999-01-01 00:00:00 [Working]
+1999-01-01 00:00:00 [16 Packages store 0 B]
+                           
+1999-01-01 00:00:00 [Working]
+1999-01-01 00:00:00 [17 Packages store 0 B]
+                           
+0100-01-01 00:00:00 [Working]
+              
+Fetched 24.7 MB in 4s (6519 kB/s)
+2024-08-31 14:36:15 
+Reading package lists... 0%
 
-To generate this message, Docker took the following steps:
- 1. The Docker client contacted the Docker daemon.
- 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
-    (amd64)
- 3. The Docker daemon created a new container from that image which runs the
-    executable that produces the output you are currently reading.
- 4. The Docker daemon streamed that output to the Docker client, which sent it
-    to your terminal.
+Reading package lists... 0%
 
-To try something more ambitious, you can run an Ubuntu container with:
- $ docker run -it ubuntu bash
+Reading package lists... 0%
 
-Share images, automate workflows, and more with a free Docker ID:
- https://hub.docker.com/
+Reading package lists... 7%
 
-For more examples and ideas, visit:
- https://docs.docker.com/get-started/
+Reading package lists... 7%
 
-[?2004h]0;andrei@DESKTOP-M10KEP3: /mnt/c/FrontEnd/web/2024/part12-containers-applications[01;32mandrei@DESKTOP-M10KEP3[00m:[01;34m/mnt/c/FrontEnd/web/2024/part12-containers-applications[00m$ exit
-[?2004lexit
+Reading package lists... 63%
 
-Script done on 2024-08-30 17:01:19+03:00 [COMMAND_EXIT_CODE="0"]
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+2024-08-31 14:36:18 root@c1b89116a596:/# apt-get install -y nano
+2024-08-31 14:36:19 
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 88%
+
+Reading package lists... 88%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+2024-08-31 14:36:19 
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... Done
+
+2024-08-31 14:36:19 
+Reading state information... 0% 
+
+Reading state information... 98%
+
+Reading state information... Done
+
+2024-08-31 14:36:20 Suggested packages:
+2024-08-31 14:36:20   hunspell
+2024-08-31 14:36:20 The following NEW packages will be installed:
+2024-08-31 14:36:20   nano
+2024-08-31 14:36:20 0 upgraded, 1 newly installed, 0 to remove and 29 not upgraded.
+2024-08-31 14:36:20 Need to get 281 kB of archives.
+2024-08-31 14:36:20 After this operation, 856 kB of additional disk space will be used.
+2024-08-31 14:36:20 
+2000-01-01 00:00:00 [Working]
+            
+2001-01-01 00:00:00 http://archive.ubuntu.com/ubuntu noble/main amd64 nano amd64 7.2-2build1 [281 kB]
+2024-08-31 14:36:20 
+2001-02-01 00:00:00 [1 nano 5548 B/281 kB 2%]
+                            
+0100-01-01 00:00:00 [Working]
+              
+Fetched 281 kB in 0s (934 kB/s)
+2024-08-31 14:36:20 debconf: delaying package configuration, since apt-utils is not installed
+2024-08-31 14:36:21 Selecting previously unselected package nano.
+2024-08-31 14:36:21 (Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 4376 files and directories currently installed.)
+2024-08-31 14:36:21 Preparing to unpack .../nano_7.2-2build1_amd64.deb ...
+2024-08-31 14:36:21 Unpacking nano (7.2-2build1) ...
+2024-08-31 14:36:21 Setting up nano (7.2-2build1) ...
+2024-08-31 14:36:21 update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+2024-08-31 14:36:21 update-alternatives: warning: skip creation of /usr/share/man/man1/editor.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group editor) doesn't exist
+2024-08-31 14:36:21 update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+2024-08-31 14:36:21 update-alternatives: warning: skip creation of /usr/share/man/man1/pico.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group pico) doesn't exist
+2024-08-31 14:36:27 root@c1b89116a596:/# nano /usr/src/app/index.js
+2024-08-31 14:36:52 
+
+root@c1b89116a596:/# exit
+2024-08-31 14:36:52 
+exit
