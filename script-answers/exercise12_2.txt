@@ -13,23 +13,16 @@ Script done.
 Script started, output log file is 'script-answers/exercise12_3.txt'.
 sh: bash: not found
 Script done.
-/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # [6n         
-2001-03-01 00:00:00 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-2024-08-31 14:36:11 
-2000-01-01 00:00:00 [3 InRelease 4096 B/126 kB 3%]
-                                 
-2000-01-01 00:00:00 [Working]
-            
-2001-04-01 00:00:00 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
-2024-08-31 14:36:11 
-2000-01-01 00:00:00 [4 InRelease 8380 B/126 kB 7%]
-2000-01-01 00:00:00 [4 InRelease 52.3 kB/126 kB 41%]
-                                   
-2000-01-01 00:00:00 [Waiting for headers]
-                        
-2001-05-01 00:00:00 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [337 kB]
-2024-08-31 14:36:11 
-2000-01-01 00:00:00 [5 Packages 4171 B/337 kB 1%]
+/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # [6nscript -c "bash" script-answers/exercise12_3.txt
+Script started, output log file is 'script-answers/exercise12_3.txt'.
+sh: bash: not found
+Script done.
+/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # [6n# Run the Ubuntu container
+/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # docker container run -it ubuntu bash[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[J[Jdocker container run -it ubuntu bash
+sh: docker: not found
+/mnt/host/c/FrontEnd/web/2024/part12-containers-applications # [6n
+Script done on 2024-08-31 13:09:53+00:00 [COMMAND_EXIT_CODE="0"]
+-01-01 00:00:00 [5 Packages 4171 B/337 kB 1%]
 2000-01-01 00:00:00 [5 Packages 337 kB/337 kB 100%]
                                   
 2000-01-01 00:00:00 [Working]
