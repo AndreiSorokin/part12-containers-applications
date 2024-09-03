@@ -1,0 +1,14 @@
+services:
+  todo-backend:
+    image: express-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      - MONGO_URL
+      - REDIS_URL
+    volumes:
+      - .:/usr/src/app
+    command: npm start
