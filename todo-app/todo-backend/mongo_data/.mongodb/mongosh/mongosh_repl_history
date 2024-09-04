@@ -1,0 +1,30 @@
+exit
+docker cp $(docker-compose ps -q mongo):/tmp/mongo-commands-output.txt C:\FrontEnd\web\2024\part12-containers-applications\script-answers\exercise12_8.txt
+db.todos.find()
+show collections
+use the_database
+db.todos.find();
+show collections;
+use the_database;
+db.todos.find()
+show collections
+use the_database
+exit
+db.todos.find()
+show collections
+use the_database
+show collections
+use the_database
+db.todos.find()
+db.todos.insertOne({ text: "Increase the number of tools in my tool belt", done: false })
+show collections
+use the_database
+Stop-Transcript
+db.todos.find()
+db.todos.insertOne({ text: "Increase the number of tools in my tool belt", done: false })
+show collections
+use the_database
+db.todos.find()
+db.todos.insertOne({ text: "Increase the number of tools in my tool belt", done: false })
+show collections
+use the_database
