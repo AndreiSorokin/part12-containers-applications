@@ -5,10 +5,10 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
 
-COPY . .
+COPY --chown=node:node . .
 
 RUN npm install -g nodemon
 
 EXPOSE 3000
 
-CMD ["nodemon", "app.js"]
+CMD ["npm", "run", "dev"]

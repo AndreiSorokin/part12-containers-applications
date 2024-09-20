@@ -12,4 +12,4 @@ ENV DEBUG=todo-app/todo-backend:*
 
 USER node
 
-CMD npm start
+CMD ["npm", "start"]
