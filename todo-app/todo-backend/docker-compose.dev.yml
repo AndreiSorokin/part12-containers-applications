@@ -27,7 +27,7 @@ services:
       - ./:/usr/src/app
       - /usr/src/app/node_modules
     environment:
-      - MONGO_URL=${MONGO_URL}
+      - MONGO_URL=MONGO_URL=mongodb://root:example@mongo:27017/the_database?authSource=admin
       - REDIS_URL=${REDIS_URL}
     depends_on:
       - mongo
