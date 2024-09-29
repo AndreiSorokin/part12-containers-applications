@@ -1,15 +1,14 @@
-FROM node:20
+FROM node:14
 
 WORKDIR /usr/src/app
 
+COPY package*.json ./
+RUN npm install
 
 COPY --chown=node:node . .
 
-RUN npm ci 
+RUN npm install -g nodemon
 
-ENV DEBUG=todo-app/todo-backend:*
-
-
-USER node
+EXPOSE 3000
 
 CMD ["npm", "start"]
