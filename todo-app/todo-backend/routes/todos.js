@@ -39,21 +39,15 @@ singleRouter.delete('/', async (req, res) => {
 });
 
 /* GET todo. */
-singleRouter.get('/:id', async (req, res) => {
-  const { id } = req.params
-  const currectTodo = await Todo.findById(id)
-  if(!currectTodo) {
-    return res.sendStatus(404)
-  }
-  res.send(currectTodo);
+singleRouter.get('/', async (req, res) => {
+  res.send(req.todo);
 });
 
 /* PUT todo. */
-singleRouter.put('/:id', async (req, res) => {
-  const { id } = req.params
+singleRouter.put('/', async (req, res) => {
   const { text, done } = req.body
   const todoToUpdate = await Todo.findByIdAndUpdate(
-    id,
+    req.todo._id,
     { text, done },
     { new: true }
   )
